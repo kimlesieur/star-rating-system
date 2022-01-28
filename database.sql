@@ -27,7 +27,8 @@ CREATE TABLE `products` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(256) NOT NULL,
   `description` varchar(1280) NOT NULL,
-  `price` int(128) NOT NULL
+  `price` int(128) NOT NULL,
+  PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `products` (`name`, `description`, `price`) VALUES

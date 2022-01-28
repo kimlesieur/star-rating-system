@@ -42,7 +42,7 @@ html, body {
 .pStar .star {
   width: 36px;
   height: 36px;
-  background-image: url("stars.png");
+  background-image: url("../stars.png");
   cursor: pointer;
 }
 .pStar .star.blank { 

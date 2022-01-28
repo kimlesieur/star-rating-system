@@ -1,5 +1,5 @@
 <?php
-  require './vendor/autoload.php';
+  require dirname(__DIR__).'./vendor/autoload.php';
   use App\{Connection, ProductTable, Products, Notation};
 
   $userId = 900; //fixe pour la démo
@@ -30,8 +30,7 @@
 <html>
   <head>
     <title>Rate me !</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
   </head>
   <body>
     <div id="demo">  
@@ -73,6 +72,6 @@
       <input id="starNum" type="hidden" name="stars"/>
     </form>
 
-
+    <script src="./assets/js/script.js" type="text/javascript"></script>
   </body>
 </html>
